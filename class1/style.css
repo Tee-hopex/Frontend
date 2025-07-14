@@ -1,0 +1,48 @@
+h1 {
+    color: cyan;
+    background-color: grey;
+}
+
+h1 {
+    color: blue;
+    background-color: green;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    /* width: 100px; */
+    background-color: lightgrey;
+    display: block;
+    text-align: center;
+}
+
+.main-article {
+    background-color: pink;
+    /* border: solid 19px purple; */
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 19px;
+}
+
+.change {
+    background-color: lightblue;
+}
+
+.point1 {
+    color: white;
+}
+.point2 {
+    color: tomato;
+}
