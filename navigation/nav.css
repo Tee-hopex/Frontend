@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: center; */
+}
+
+img{
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: skyblue;
+    padding: 5px;
+
+}
+
+.dropdown li {
+    margin: 5px;
+}
+
+.dropdown-container:hover .dropdown {
+    display: block;
+}
+

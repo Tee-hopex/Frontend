@@ -3,9 +3,14 @@ h1 {
     background-color: grey;
 }
 
-h1 {
+h1, h1.second {
     color: blue;
     background-color: green;
+}
+
+p#newSection.second {
+    color: red;
+    background-color: yellow;
 }
 
 p {
@@ -34,10 +39,17 @@ a {
     border-style: solid;
     border-color: purple;
     border-width: 19px;
+    border-radius: 30px;
+    /* border-end-start-radius: 100px */
 }
 
 .change {
+    display: none;
     background-color: lightblue;
+}
+
+.main-article:hover .change {
+    display: block;
 }
 
 .point1 {
@@ -45,4 +57,9 @@ a {
 }
 .point2 {
     color: tomato;
+}
+
+* {
+    box-sizing: border-box;
+    color: grey
 }
