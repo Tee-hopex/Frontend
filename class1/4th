@@ -1,0 +1,36 @@
+// this is a single line comment
+
+// console.log("Hello, World!"); // this logs "Hello, World!" to my console (String Data Type)
+
+// console.log(23) // this logs 23 to my console (Number Data Type)
+
+// console.log(true) // this logs true to my console (Boolean Data Type)
+
+// let total_number = 2
+
+// console.log(total_number) // this logs 2 to my console (Variable Data Type)
+
+// total_number = total_number + 1
+
+// console.log(total_number) // this logs 3 to my console (Variable Data Type)
+
+// Arithmetic Operations
+
+// console.log(2 + 3) // this logs 5 to my console (Addition)
+// console.log(5 - 2) // this logs 3 to my console (Subtraction)
+// console.log(2 * 3) // this logs 6 to my console (Multiplication)
+// console.log(6 / 2) // this logs 3 to my console (Division)
+// console.log(5 % 2) // this logs 1 to my console (Modulus)
+// console.log(2 ** 3) // this logs 8 to my console (Exponentiation)
+
+
+let a = 5;
+let b = 2;
+
+a **= 2 // a = a - 2
+
+// b++ 
+// a--
+
+console.log(a)   
+// console.log(b)
