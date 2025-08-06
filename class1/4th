@@ -24,13 +24,53 @@
 // console.log(2 ** 3) // this logs 8 to my console (Exponentiation)
 
 
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
-a **= 2 // a = a - 2
+// a **= 2 // a = a - 2
 
-// b++ 
-// a--
+// // b++ 
+// // a--
 
-console.log(a)   
+// console.log(a)   
 // console.log(b)
+
+
+// else if (variable <0 ){
+//     console.log('variable is negative')
+// }else if ((variable % 2) == 0) {
+//     console.log('variable is divisible by 2')
+// }
+
+// let number = 1 > 2
+
+
+
+// console.log(variable)
+
+// let condition = (variable > 0) && ((variable % 2) == 0)
+
+// console.log(condition)
+
+
+// console.log(variable)
+
+// if (variable == 0) {
+//     console.log('variable is 0')
+// } else if (variable < 0) {
+    //     console.log('variable is negative')
+// }  else if (variable > 0 ) {
+    //     console.log('variable is positive')
+    // } else {
+        //     console.log("is not a number")
+        // }
+        
+        
+        
+let variable = -5;
+        
+variable == 0 ? console.log('variable is 0') : 
+variable < 0 ? console.log('variable is negative') : 
+variable > 0 ? console.log('variable is positive') : 
+console.log("is not a number")
+
